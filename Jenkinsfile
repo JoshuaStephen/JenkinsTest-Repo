@@ -19,14 +19,14 @@ pipeline{
                 echo "Deploying Code"
                 """
             }
-            when{
-                branch 'main'
-            }
-            steps {
-                sh """
-                echo "Building Artifact on Main branch"
-                """
-            }
+//             when{
+//                 branch 'main'
+//             }
+//             steps {
+//                 sh """
+//                 echo "Building Artifact on Main branch"
+//                 """
+//             }
         }
     }
 
