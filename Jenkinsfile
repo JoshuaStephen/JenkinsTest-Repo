@@ -7,9 +7,9 @@ pipeline{
             }
         }
         stage("Deployment"){
-            when{
-                branch 'front-end'
-            }
+//             when{
+//                 branch 'front-end'
+//             }
             steps {
                 sh """
                 echo "Building Artifact - Front End"
