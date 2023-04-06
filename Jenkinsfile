@@ -12,11 +12,11 @@ pipeline{
             }
             steps {
                 sh """
-                echo "Building Artifact"
+                echo "Building Artifact - Front End"
                 """
 
                 sh """
-                echo "Deploying Code"
+                echo "Deploying Code - Front End"
                 """
             }
         }
